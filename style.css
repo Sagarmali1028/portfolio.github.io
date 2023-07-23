@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: wheat;
+    position: relative;
+    top: 93vh;
+}
+
+nav ul {
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 91px;
+    position: relative;
+    left: 40vw;
+    bottom: 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 4vh;
+}
+
+nav h1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 7px;
+    left: 18px;
+    color: black;
+    font-size: 5vh;
+}
+
+header {
+    position: relative;
+    height: 80vh;
+    min-height: 600px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("back-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.header .header-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 55%;
+}
+
+h4 {
+    font-size: 42px;
+
+}
+
+header div h1 {
+    font-size: 15vh;
+
+}
+
+header div {
+    padding: 28vh 21vh;
+
+}
+
+header div h6 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+div.about {
+    position: relative;
+    bottom: -6vw;
+    height: 100vh;
+}
+
+div.about h2 {
+    font-size: 7vh;
+    padding-left: 35px;
+}
+
+div.about h5 {
+    font-size: 5vh;
+    padding-left: 35px;
+    position: relative;
+    bottom: -2vw;
+
+}
+
+div.about p {
+    font-size: 3vh;
+    padding-left: 35px;
+    position: relative;
+    bottom: -3vw;
+
+}
+
+div.Personal-info {
+    position: relative;
+    left: 4vw;
+    bottom: 15vw;
+}
+
+div.Personal-info h3 {
+    font-size: 5vh;
+}
+
+div.Personal-info ul {
+    font-size: 3vh;
+
+}
+
+div.skills {
+    padding-left: 40vw;
+    position: relative;
+    bottom: 24vw;
+}
+
+div.skills h3 {
+    font-size: 5vh;
+}
+
+div.skills ul {
+    font-size: 3vh;
+}
+
+div img {
+    border-radius: 50%;
+    height: 24vw;
+    position: relative;
+    bottom: 12vw;
+    left: 56vw;
+    border: 5px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 1px rgba(128, 128, 128, 0.13);
+}
+
+button.button {
+    height: 7vh;
+    width: 10vw;
+    background-color: blueviolet;
+    color: black;
+    position: relative;
+    left: 24vw;
+    bottom: 15vh;
+}
+
+button.button a {
+    color: black;
+    text-decoration: none;
+}
+
+div.container h1 {
+    font-size: 4vw;
+    padding-left: 40px;
+}
+
+div.project h3 {
+    font-size: 4vh;
+    padding-left: 100px;
+}
+
+div.project h2 {
+    font-size: 5vh;
+    padding-left: 100px;
+}
+
+div.project-2 h2 {
+    font-size: 5vh;
+    padding-left: 50vw;
+}
+
+div.project-2 h3 {
+    font-size: 4vh;
+    padding-left: 50vw;
+}
+
+div.project-2 p {
+    font-size: 3vh;
+    padding-left: 50vw;
+}
+
+div.project p {
+    font-size: 3vh;
+    padding-left: 100px;
+}
+
+div button.btn-1 {
+    height: 41px;
+    width: 30vh;
+    border-color: red;
+    background-color: transparent;
+    position: relative;
+    left: 50vw;
+
+}
+
+div button.btn-1:hover {
+    background-color: red;
+    color: red;
+}
+
+div button.btn-1 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+}
+
+div button.btn {
+    height: 41px;
+    width: 30vh;
+    border-color: red;
+    background-color: transparent;
+    position: relative;
+    left: 100px;
+
+}
+
+div button.btn:hover {
+    background-color: red;
+    color: red;
+}
+
+div button.btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+}
+
+div.contact input#name {
+    display: block;
+    width: 32vw;
+    height: 8vh;
+    font-size: 1rem;
+    color: #495057;
+    background-color: white;
+    border: 1px solid #ced4da;
+    position: relative;
+    left: 18vw;
+    border-radius: 7px;
+}
+
+div.contact input#email {
+    display: block;
+    width: 32vw;
+    height: 8vh;
+    font-size: 1rem;
+    color: #495057;
+    background-color: white;
+    border: 1px solid #ced4da;
+    position: relative;
+    left: 18vw;
+    top: 5vh;
+    border-radius: 7px;
+}
+
+div.contact textarea#message {
+    display: block;
+    width: 32vw;
+    height: 30vh;
+    color: #495057;
+    border: 1px solid #ced4da;
+    background-color: white;
+    position: relative;
+    left: 18vw;
+    top: 8vh;
+    border-radius: 7px;
+}
+
+div.contact form h1 {
+    position: relative;
+    left: 18vw;
+}
+
+div form button {
+    height: 41px;
+    width: 30vh;
+    font-size: 20px;
+    border-color: red;
+    color: #000;
+    border-radius: 5px;
+    position: relative;
+    left: 18vw;
+    top: 13vh;
+}
+
+div form button:hover {
+    background-color: red;
+    color: black;
+}
+
+div form {
+    height: 30vw;
+}
+
+footer {
+    background-color: #495057;
+    color: #000;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 21vh;
+
+}
+
+footer p {
+    align-items: center;
+    display: flex;
+}
